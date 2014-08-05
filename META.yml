@@ -1,28 +1,31 @@
 ---
 abstract: 'yamlval vmethod for Template Toolkit'
 author:
-  - 'Ingy döt Net <ingy@ingy.net>'
-build_requires:
-  ExtUtils::MakeMaker: 6.42
+  - 'Ingy döt Net <ingy@cpan.org>'
+build_requires: {}
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
-distribution_type: module
-generated_by: 'Module::Install version 1.01'
+  ExtUtils::MakeMaker: '6.30'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
-module_name: Template::Plugin::YAMLVal
+  version: '1.4'
 name: Template-Plugin-YAMLVal
 no_index:
   directory:
     - inc
     - t
+    - xt
+    - example
 requires:
-  Template::Toolkit::Simple: 0.13
-  YAML: 0.72
-  YAML::XS: 0.35
-  perl: 5.8.3
+  Template: '0'
+  Template::Toolkit::Simple: '0'
+  YAML: '0'
+  YAML::XS: '0'
+  perl: v5.8.1
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.10
+  bugtracker: https://github.com/ingydotnet/template-plugin-yamlval-pm/issues
+  homepage: https://github.com/ingydotnet/template-plugin-yamlval-pm
+  repository: https://github.com/ingydotnet/template-plugin-yamlval-pm.git
+version: '0.11'
