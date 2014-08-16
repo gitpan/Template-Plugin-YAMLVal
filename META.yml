@@ -28,4 +28,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/template-plugin-yamlval-pm/issues
   homepage: https://github.com/ingydotnet/template-plugin-yamlval-pm
   repository: https://github.com/ingydotnet/template-plugin-yamlval-pm.git
-version: '0.13'
+version: '0.14'

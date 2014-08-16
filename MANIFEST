@@ -9,6 +9,5 @@ Makefile.PL
 README
 lib/Template/Plugin/YAMLVal.pm
 lib/Template/Plugin/YAMLVal.pod
-t/000-compile-modules.t
 t/release-pod-syntax.t
 t/test.t
